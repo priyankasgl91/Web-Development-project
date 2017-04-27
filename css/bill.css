@@ -1,0 +1,122 @@
+/*Sehgal,Priyanka Account:jadrn045
+CS645, Spring 2017
+Project 3 */
+body {
+	background-color: rgb(218, 218, 218);
+}
+
+.errormessage {
+	color: red;
+	font-style: italic;
+	font-size: 14px;;
+}
+
+.ship {
+	text-align: center;
+}
+
+#ship_table {
+	background-color: white;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 10px 10px 5px #ffb6c1;
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 38px;
+}
+
+#ship_table th {
+	width: 30%;
+	padding: 10px;
+}
+
+#ship_table td {
+	width: 50%;
+	padding: 10px;
+}
+
+.bill_details {
+	padding: 30px;
+	text-align: center;
+}
+
+.bill {
+	text-align: center;
+	padding-top: 40px;
+}
+
+#bill_table {
+	background-color: white;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 10px 10px 5px #ffb6c1;
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 38px;
+}
+
+#bill_table th {
+	width: 30%;
+	padding: 10px;
+}
+
+#bill_table td {
+	width: 50%;
+	padding: 10px;
+}
+
+.payment {
+	padding: 30px;
+}
+
+#payment_table {
+	background-color: white;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	box-shadow: 10px 10px 5px #ffb6c1;
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 38px;
+}
+
+#payment_table th {
+	width: 40%;
+	padding: 10px;
+}
+
+#payment_table td {
+	padding: 10px;
+}
+
+.credit_card {
+	vertical-align: middle;
+}
+
+.check_out_now {
+	padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.back_to_cart {
+	padding: 15px 25px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: grey;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}

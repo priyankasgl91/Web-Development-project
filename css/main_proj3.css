@@ -1,0 +1,320 @@
+/*Sehgal,Priyanka Account:jadrn045
+CS645, Spring 2017
+Project 3 */
+body {
+	margin: 10px 10px 10px 10px;
+        background-image: url("images.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: pink;
+        background-blend-mode: screen;
+}
+li{
+       font-family: "Papyrus";
+}
+  
+.logo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	height: 80px;
+	width: 20%;
+	padding-top: 5px;
+	margin-bottom: 5px;
+}
+
+.ui-widget-header {
+	background-color: #ffffff;
+}
+
+.ui-widget-content {
+	background-color: #add8e6;
+	padding-left: 20px;
+	margin-left: 20%;
+	height: 100%;
+}
+
+.in_stock {
+	
+	color: green;
+        font-family: "Papyrus"
+}
+
+.coming_soon {
+	
+	color: red;
+        font-family: "Papyrus";
+}
+
+.more_to_come {
+	font-family: "Papyrus";
+	color: blue;
+}
+
+#counter {
+	background-color: #123456;
+	color: #ffffff;
+	text-align: right;
+	font-size: 120%;
+	padding-right: 20px;
+	font-weight: bold;
+	height: 30px;
+	padding-top: 1px;
+	padding-bottom: 20px;
+}
+
+#navigation li {
+	float: left;
+	height: 25px;
+}
+
+#navigation li.cart {
+	float: right;
+}
+
+#navigation li a {
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+#navigation li a.active {
+	color: blue;
+}
+
+#navigation a {
+	padding-right: 50px;
+	margin-left: 40px;
+	font-size: 21px;
+}
+
+#navigation li a:hover {
+	color: #ffcccc;
+}
+
+#navigation li a#myCart {
+	cursor: pointer;
+}
+
+.filters {
+	background-color: #FFC0CB;
+	border-style:outset;
+	margin: 0;
+	padding: 0;
+	width: 20%;
+	position: fixed;
+	top: 151px;
+	bottom: 0;
+	overflow-y:scroll;
+	height: 150;}
+
+.filter_button {
+	margin: 20px 25px 0 auto;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 5px 10px;
+	cursor: pointer;
+	text-align: center;
+	outline: none;
+	color: #123456;
+	border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;}
+
+.filter_button:hover, .filter_button:focus {
+	color: #000000;
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+}
+
+#refine {
+	padding-left: 10px;
+}
+
+ul {
+	padding-left: 10px;
+	list-style-type: none;
+}
+
+.thumbnail {
+        height: 350px;
+	padding-top: 10px;
+	margin: 5px;
+	border: 1px solid #000000;
+	float: left;
+	width: 180px;
+	cursor: pointer;
+	box-shadow: 10px 10px 5px #ffb6c1;
+	background-color: #ffb;
+	margin-top: 20px;
+	margin-right: 10px;
+	margin-bottom: 20px;
+	-moz-border-radius: 70px;
+	-webkit-border-radius: 70px;
+	border-radius: 38px;
+}
+
+.thumbnail img {
+	border: 1px solid gray;
+}
+
+.caption {
+	cursor: pointer;
+}
+
+.detail_button {
+	margin: 20px 25px 0 auto;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 5px 10px;
+	cursor: pointer;
+	text-align: center;
+	outline: none;
+	color: #123456;
+	border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;
+}
+
+.detail_button:hover, .detail_button:focus {
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+	z-index: 1;
+	padding-top: 100px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(255, 255, 153);
+	background-color: rgba(255, 105, 180, 0.3);
+	margin-left: auto;
+	margin-right: auto;}
+
+.modal-content {
+	background-color: #fefefe;
+	margin: auto;
+	padding: 20px;
+	border: 1px solid #888;
+	width: 80%;
+	height: 475px;
+}
+
+.close {
+	color: #ff69b4;
+	float: right;
+	font-size: 40px;
+	font-weight: bold;
+	transition: 0.3s;
+}
+
+.close:hover, .close:focus {
+	color: #123456;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.modal-img {
+	position: relative;
+	clear: none;
+	width: 43.75%;
+	box-shadow: 10px 10px 5px #ffb6c1;
+	display: block;
+	float: left;
+	margin: 25px auto 0px auto;
+	vertical-align: middle;
+	box-sizing: border-box;
+	border: 1px solid gray;
+	
+	
+}
+table {
+	border-collapse: collapse;
+	table-layout: fixed;
+}
+
+table th, td {
+	padding-left: 15px;
+	text-align: left;
+	vertical-align: center;
+}
+
+table td label {
+	width: 1px;
+}
+
+#title_th, #button_td {
+	text-align: center;
+}
+
+.blank_row {
+	height: 10px;
+	background-color: #FFFFFF;
+}
+
+table td:last-child {
+	width: 85%;
+}
+
+.button {
+	margin: 20px 25px 0 auto;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 5px 10px;
+	cursor: pointer;
+	text-align: center;
+	outline: none;
+	color: #123456;
+	border: none;
+        border-radius: 15px;
+        box-shadow: 0 9px #999;}
+
+.button:hover, .button:focus {
+	color: #000000;
+	background-color: #FFFFFF;
+}
+
+#about_content {
+	margin-left: auto;
+	margin: auto;
+	width : 70%;
+	background-color: white;
+	padding : 20px;
+	margin-top : 30px;
+	color : black;
+	font-family: "Papyrus"
+}
+#about_content p {
+	font-size: 18px;
+	font-family: "Papyrus"
+}
+
+.common_caption {
+	color: #ff69b4;
+	padding: 5px;
+}
+
+.filters::-webkit-scrollbar {
+    width: 1em;
+}
+ 
+.filters::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+}
+ 
+.filters::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  outline: 1px solid slategrey;
+}
+
+.fontfilters
+{
+font-family: "Papyrus"
+}
